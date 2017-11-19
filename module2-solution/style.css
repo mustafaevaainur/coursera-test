@@ -1,1 +1,58 @@
+.header {
+	color: #604294; 
+	margin: auto;
+	text-align: center;
+ }
+
+ /*.tittle {
+ 	background-color: green;
+ 	width: auto;
+ 	height: 50px;
+ 	border: 1px color #604294;
+ }*/
+#base{
+	margin: auto;
+	overflow: auti;
+	float: left;
+}
+
+@media (min-width: 992px) {
+	#box, #inboxChicken, #inboxBeef, #inboxSushiv{
+		float: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px;) {
+	#box, #inboxChicken, #inboxBeef, #inboxSushiv{
+		float: left;
+	}
+}
+
+@media (max-width: 767px;) {
+	#box, #inboxChicken, #inboxBeef, #inboxSushiv{
+		float: left;
+	}
+}
+#box {
+	background-color: white;
+	padding: 10px;
+	border: 1px solid black; 
+	width: 300px;
+	height: 200px;
+	margin-top: 10px;
+	margin-right: 10px;
+	overflow: auto; 
+}
+
+#inboxFood {
+	position: relative;
+	bottom: 30%;
+	right: -62.8%;
+	background-color: #D0C4E8;
+	padding: 3.3%;
+	border: 1px;
+	border-style: none none solid solid;
+	width: 33.5%;
+	height: 20px;
+}
 
